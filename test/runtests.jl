@@ -4,7 +4,7 @@ using FourierContinuation
 include("vandermonde.jl")
 include("csmatrix.jl")
 
-@testset "FC" begin
+@testset "FourierContinuation" begin
     f(x) = log(x + oneunit(x))
     df(x) = inv(x + oneunit(x))
     params = FCGramParameters{BigInt,BigFloat}(N=50) # high-precision arithmethic
