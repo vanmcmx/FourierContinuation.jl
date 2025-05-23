@@ -21,13 +21,13 @@ continuation of `f(x)=log(x+1):[0,1]→R` and its first order derivative.
 This package is unregistered and requires a Julia version >=1.11. It can added by 
 
 ```julia
-(v1.11) pkg> add https://github.com/vanmcmx/FC.jl
+(v1.11) pkg> add https://github.com/vanmcmx/FourierContinuation.jl
 ```
 
 ## Usage
 
 ```julia
-julia> using FC
+julia> using FourierContinuation
 ```
 
 In the following the FC(Gram) accelerated method [2] is used to generate a
