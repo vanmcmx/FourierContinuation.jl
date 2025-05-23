@@ -1,5 +1,5 @@
 export FCDerivative
-export info_derivative, derivative_error, npts_Iunit, get_period
+export info_fc, derivative_error, npts_Iunit, get_period
 
 """
     FCDerivative(op::O, k::Integer; σ::Function=identity)
