@@ -1,6 +1,6 @@
-name = "FC"
+name = "FourierContinuation"
 uuid = "7a7d29dc-0a27-42a9-9145-d1eba3778da3"
-authors = ["Van "]
+authors = ["Ivan "]
 version = "0.1.0"
 
 [deps]
