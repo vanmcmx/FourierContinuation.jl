@@ -53,7 +53,7 @@ Provide a real valued function `f` that is well defined on the unit interval `[0
 e.g. `f(x)=ln(x+1)`.
 
 ```julia
-f(x) = log(x + oneunit(x))
+f(x) = log(x + one(x))
 ```
 
 Plot the function and its periodic continuation.
@@ -80,7 +80,7 @@ df(x) = inv(x + one(x))
 Compare the derivative values of the function and its continuation.
 
 ```julia
-info_derivative(D, f, df)
+info_fc(D, f, df)
 ```
 
 Plot the derivatives of both the function and its periodic continuation.
