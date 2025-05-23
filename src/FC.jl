@@ -1,4 +1,4 @@
-module FC
+module FourierContinuation
 
 import Printf: @sprintf
 import FourierTools: rfft, irfft
@@ -23,4 +23,4 @@ include("fcgram.jl")
 include("derivatives.jl")
 include("fcplots.jl")
 
-end # module FC
+end
