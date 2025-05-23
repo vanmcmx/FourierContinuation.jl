@@ -1,5 +1,5 @@
 using Test
-using FC
+using FourierContinuation
 
 include("vandermonde.jl")
 include("csmatrix.jl")
