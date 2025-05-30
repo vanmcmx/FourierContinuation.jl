@@ -1,6 +1,6 @@
 name = "FourierContinuation"
 uuid = "7a7d29dc-0a27-42a9-9145-d1eba3778da3"
-authors = ["Ivan "]
+authors = ["Ivan Méndez <vanmctwp@gmail.com>", "Faisal Amnali <faisal.amlani@ens-paris-saclay.fr>"]
 version = "0.1.0"
 
 [deps]
