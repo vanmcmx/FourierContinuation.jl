@@ -89,6 +89,8 @@ Plot the derivatives of both the function and its periodic continuation.
 fcplot(D, f, df)
 ```
 
+Run the Pluto notebook in the assets directory for an interactive example.
+
 ## Cite
 
 <a name="ref2"></a>[1] [O. P. Bruno et al. (2007) Accurate, high-order representation of complex three-dimensional surfaces via Fourier continuation analysis](https://doi.org/10.1016/j.jcp.2007.08.029)
