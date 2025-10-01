@@ -30,7 +30,7 @@ julia> ] add https://github.com/vanmcmx/FourierContinuation.jl
 julia> using FourierContinuation
 ```
 
-In the following the FC(Gram) accelerated method [2] is used to generate a
+In the following the FC(Gram) accelerated method [[2]](#ref2) is used to generate a
 discrete FC operator `Op` and its corresponding discrete derivative operator `D`.
 
 ### Periodic Extension
@@ -92,9 +92,10 @@ fcplot(D, f, df)
 ## Cite
 
 <a name="ref1"></a>[1] [Amlani & Bruno (2016) An FC-based spectral solver for elastodynamic problems in general three-dimensional domains](https://doi.org/10.1016/j.jcp.2015.11.060)
-
+<a name="ref2"></a>[2] [O. P. Bruno et al. (2007) Accurate, high-order representation of complex three-dimensional surfaces via Fourier continuation analysis](https://doi.org/10.1016/j.jcp.2007.08.029)
 
 ## Similar packages or implementations
 
 - [Fourier-continuation](https://github.com/gschivre/Fourier-continuation)
 - [Global-Fourier-Continuation](https://github.com/Kumar20-21/Global-Fourier-Continuation)
+- [Fourier Continuation Gram Matrices](https://github.com/neuraloperator/FCGram)
