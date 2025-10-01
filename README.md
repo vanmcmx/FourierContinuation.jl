@@ -92,6 +92,7 @@ fcplot(D, f, df)
 ## Cite
 
 <a name="ref1"></a>[1] [Amlani & Bruno (2016) An FC-based spectral solver for elastodynamic problems in general three-dimensional domains](https://doi.org/10.1016/j.jcp.2015.11.060)
+
 <a name="ref2"></a>[2] [O. P. Bruno et al. (2007) Accurate, high-order representation of complex three-dimensional surfaces via Fourier continuation analysis](https://doi.org/10.1016/j.jcp.2007.08.029)
 
 ## Similar packages or implementations
